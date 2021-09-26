@@ -1,0 +1,8 @@
+list=[]
+n=int(input("Enter no of elements"))
+for i in range(0,n):
+  element=int(input())
+  list.append(element)
+for i in list:
+  if i>=0:
+      print(i,end=" ")
